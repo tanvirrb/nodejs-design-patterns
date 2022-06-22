@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-design-pattern",
+  "version": "1.0.0",
+  "description": "Simple node.js design pattern examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec \"./src/**/*.test.js\" --timeout 15000 --exit",
+    "lint:fix": "eslint src/ --fix",
+    "preformat": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvirrb/nodejs-design-patterns.git"
+  },
+  "keywords": [
+    "design-patterns",
+    "node.js"
+  ],
+  "author": "Tanvir Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanvirrb/nodejs-design-patterns/issues"
+  },
+  "homepage": "https://github.com/tanvirrb/nodejs-design-patterns#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1"
+  }
+}
